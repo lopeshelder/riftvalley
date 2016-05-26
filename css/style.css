@@ -1,0 +1,24 @@
+.award img {
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ padding: 14px 0;
+ -webkit-filter: grayscale(1);
+ -moz-filter: grayscale(1);
+ -o-filter: grayscale(1);
+ -ms-filter: grayscale(1);
+ filter: grayscale(1);
+ opacity: .5;
+ -webkit-transition: all 0.2s ease-in-out;
+ -o-transition: all 0.2s ease-in-out;
+ transition: all 0.2s ease-in-out;
+ -webkit-overflow-scrolling: touch;
+}
+.award img:hover {
+ -webkit-filter: grayscale(0);
+ -moz-filter: grayscale(0);
+ -o-filter: grayscale(0);
+ -ms-filter: grayscale(0);
+ filter: grayscale(0);
+ opacity: 1;
+}
