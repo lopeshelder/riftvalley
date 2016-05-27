@@ -8,7 +8,7 @@
  -o-filter: grayscale(1);
  -ms-filter: grayscale(1);
  filter: grayscale(1);
- opacity: .5;
+ opacity: .9;
  -webkit-transition: all 0.2s ease-in-out;
  -o-transition: all 0.2s ease-in-out;
  transition: all 0.2s ease-in-out;
@@ -21,4 +21,8 @@
  -ms-filter: grayscale(0);
  filter: grayscale(0);
  opacity: 1;
+}
+@font-face {
+    font-family: gteknova;
+    src: url(../fonts/gtek_nova.ttf);
 }
