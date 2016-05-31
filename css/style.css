@@ -26,3 +26,7 @@
     font-family: gteknova;
     src: url(../fonts/gtek_nova.ttf);
 }
+::selection {
+    text-shadow: none;
+    background: rgba(173, 216, 230, 1);
+}
